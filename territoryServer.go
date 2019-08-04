@@ -810,7 +810,7 @@ func Max(x, y int) int {
 func main() {
 	var err error
 
-	config, err = loadConfig("./config.json")
+	config, err = loadConfig("/config/config.json")
 	if err != nil {
 		log.Printf("Warning: %v", err)
 		log.Println("Failed to read configuration file: config.json")

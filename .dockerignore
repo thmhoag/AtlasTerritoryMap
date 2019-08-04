@@ -1,0 +1,8 @@
+# Ignore everything, take whitelist approach
+**
+!www/
+!config.json
+!go.mod
+!go.sum
+!territoryServer.go
+!tribeCount.go
